@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sibling selector</title>
+    <style>
+        h1+p{
+            background-color: rgba(55, 218, 243, 0.655);
+            color: rgb(120, 10, 35);
+        }
+        h2~ p{
+            background-color: rgba(243, 243, 55, 0.655);
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>sibling : The very next element</p>
+    <h1>heading1</h1>
+    <p>paragraph a after heading1 </p>
+    <p>paragraph 2</p>
+    <h2>heading2</h2>
+    <p>paragraph a after heading2 </p>
+    <p>paragraph 3</p>
+</body>
+</html>
